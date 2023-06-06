@@ -93,7 +93,7 @@ let data;
 
 const setData = () => {
     if (__DEV__) {
-        data = require('./data.json'); //testData;
+        data = testData;
     } else {
         data = require('./data.json');
     }
